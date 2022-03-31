@@ -18,10 +18,21 @@ module.exports = {
         'radial-teal': 'radial-gradient(50% 50% at 50% 50%, #00404B 24.74%, rgba(0, 27, 35, 0) 100%)',
         'radial-grey-teal': 'linear-gradient(180deg, #001423 0%, #00404B 100%)',
         'radial-teal-sea-green': 'linear-gradient(180deg, #00404B 0%, #027175 53.65%, #05B0AB 100%)',
+        'radial-grey-teal-sea': 'linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 40%, #027175 90%, #05B0AB 100%)',
+        'radial-sea-mint': 'linear-gradient(180deg, #05B0AB 0%, #F7FFFC 100%)',
+        'hero-beams': 'url("./assets/hero_beams.png")',
       },
       lineHeight: {
         '9xl': '10rem',
-      }
+      },
+      borderRadius: {
+        '4xl': '2rem',
+      },
+      spacing: {
+        '101': '25.25rem',
+        '120': '30rem',
+        '127': '31.75rem',
+      },
     },
   },
   plugins: [],

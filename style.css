@@ -30,10 +30,13 @@
        url('./assets/fonts/sora-v9-latin-600.svg#Sora') format('svg'); /* Legacy iOS */
 }
 
+html {
+  @apply text-base xl:text-lg 2xl:text-xl;
+}
+
 #app {
   font-family: Sora, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   @apply text-mint text-2xl font-normal;
-
 }

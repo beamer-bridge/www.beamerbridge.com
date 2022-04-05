@@ -29,10 +29,13 @@ module.exports = {
         'hero-beams': 'url("./assets/hero_beams.png"), linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 70%, #05B0AB 100%)',
       },
       lineHeight: {
-        '4xl': '3rem',
+        '3xl': '3rem',
+        '4xl': '4rem',
+        '5xl': '5rem',
         '6xl': '6rem',
+        '7xl': '7rem',
         '8xl': '8rem',
-        '9xl': '10rem',
+        '9xl': '9rem',
       },
       borderRadius: {
         '4xl': '3rem',

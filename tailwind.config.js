@@ -7,11 +7,17 @@ module.exports = {
       'sea-green': '#05B0AB',
       mint: '#F7FFFC',
       peach: '#F7937C',
+      fire: '#F7602B',
       rosa: '#FFEDEB',
       'neon-green': '#6DF451',
       'neon-yellow': '#BDFF3E',
 
       'grey-dark': '#001423',
+    },
+    screens: {
+      'md': '500px',
+      'lg': '1024px',
+      '2xl': '1920px',
     },
     extend: {
       backgroundImage: {
@@ -24,6 +30,8 @@ module.exports = {
       },
       lineHeight: {
         '4xl': '3rem',
+        '6xl': '6rem',
+        '8xl': '8rem',
         '9xl': '10rem',
       },
       borderRadius: {
@@ -35,6 +43,9 @@ module.exports = {
         '127': '31.75rem',
       },
     },
+    dropShadow: {
+      'petite': '0 0 5px rgb(0 0 0 / 0.4)',
+    }
   },
   plugins: [],
 }

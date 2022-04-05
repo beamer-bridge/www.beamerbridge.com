@@ -31,7 +31,7 @@
 }
 
 html {
-  @apply text-base xl:text-lg 2xl:text-xl;
+  @apply text-base md:text-lg lg:text-base 2xl:text-xl;
 }
 
 #app {

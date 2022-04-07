@@ -124,37 +124,51 @@
     </a>
 
     <section class="bg-radial-grey-teal flex justify-center px-8 py-20 lg:py-20">
-      <div class="flex flex-col lg:flex-row gap-20 w-[1400px]">
-        <div class="w-full lg:w-[40%]">
-          <h1 class="text-4xl text-semibold mb-14">How does Beamer work?</h1>
-
-          <h2 class="text-2xl text-semibold text-peach my-8">For Users</h2>
-          <span class="text-lg text-sea-green">The user initiates a transfer.</span>
-          <ol class="text-lg text-sea-green list-decimal decimal-peach ml-6 my-2">
-            <li>The assets and fees get locked on the initial rollup.</li>
-            <li>The agent sends assets to the user on the target rollup within seconds.</li>
-          </ol>
-          <span class="text-lg text-sea-green">The user can now access and use the assets on the target rollup.</span>
-
-          <h2 class="text-2xl text-semibold text-fire my-8">For Liquidity Providers</h2>
-          <ol class="text-lg text-sea-green list-decimal decimal-fire ml-6">
-            <li>The agent monitors incoming transfer requests from users and provides assets on the target rollup on
-              behalf of the liquidity provider.</li>
-            <li>After sending assets to the target rollup, the agent can now claim and withdraw the locked assets on the
-              initial rollup.</li>
-          </ol>
-
-          <div class="text-lg w-full lg:w-120 p-8 mt-14 flex items-start gap-4 bg-sea-green text-black rounded-4xl">
-            <img class="w-7 mt-1" src="assets/info_icon.svg">
-            <p class="text-lg">
-              The current test version of Beamer only allows user functions.<br>
-              The agent functions will be available to liquidity providers soon!
-            </p>
+      <div class="flex flex-col w-[1400px]">
+        <h1 class="text-4xl font-semibold mb-14">How does Beamer work?</h1>
+        <div class="flex flex-col gap-8 lg:gap-20 lg:flex-row">
+          <div class="flex w-full lg:w-[60%] justify-center lg:pt-6 lg:order-2">
+            <img class="md:h-[40rem]" src="assets/diagram.png">
           </div>
-        </div>
+          <div class="w-full lg:w-[50%] text-sea-green lg:order-1">
+            <h2 class="text-2xl text-semibold text-peach my-8">For Users</h2>
+            <div class="flex text-lg gap-2 my-2">
+              <span class="text-peach">1a.</span>
+              <span class="leading-8">The user initiates transaction by sending assets and service fees on the
+                initial rollup.</span>
+            </div>
+            <div class="flex text-lg gap-2 my-2">
+              <span class="text-peach">1b.</span>
+              <span class="leading-8">The agent sends the same amount of assets to user on target rollup within
+                seconds.</span>
+            </div>
+            <span class="text-lg text-sea-green">The user is now done - they can access and use the assets on
+              the target
+              rollup.</span>
 
-        <div class="flex w-full lg:w-[60%] justify-center items-center lg:flex">
-          <img class="w-full" src="assets/diagram.png">
+            <h2 class="text-2xl text-semibold text-fire my-8">For Liquidity Providers</h2>
+            <div class="flex text-lg leading-8 gap-2 my-2">
+              <span class="text-fire">2a.</span>
+              <span class="leading-8">The agent claims the assets and service fees on the initial rollup.</span>
+            </div>
+            <div class="flex text-lg gap-2 my-2">
+              <span class="text-fire">2b.</span>
+              <span class="leading-8">If no one challenges the claim, the agent can withdraw the assets and service
+                fees. If another agent
+                challenges the claim, the agents resolve the dispute using an escalation game.</span>
+            </div>
+            <span class="text-lg text-sea-green">As an alternative to the escalation game, an agent may submit a proof
+              on
+              Ethereum L1.</span>
+
+            <div class="text-lg w-full lg:w-120 p-8 mt-14 flex items-start gap-4 bg-sea-green text-black rounded-4xl">
+              <img class="w-7 mt-1" src="assets/info_icon.svg">
+              <p class="text-lg">
+                The current test version of Beamer only allows user functions.<br>
+                The agent functions will be available to liquidity providers soon!
+              </p>
+            </div>
+          </div>
         </div>
       </div>
     </section>

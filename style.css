@@ -40,27 +40,3 @@ html {
   -moz-osx-font-smoothing: grayscale;
   @apply text-mint text-2xl font-normal;
 }
-
-/*
- * Custom implementation of the list-decimal class to allow different colored decimals
- * Note that we can't easily add all configured colors as Tailwind does it. New
- * colors must be added by hand when required.
- */
-li {counter-increment: li}
-
-.list-decimal {
-  list-style-type: none !important;
-}
-
-.list-decimal>li::before {
-  content: counter(li) ".";
-  @apply text-right mr-2 -ml-[1.4rem];
-}
-
-.list-decimal.decimal-peach>li::before {
-  @apply text-peach;
-}
-
-.list-decimal.decimal-fire>li::before {
-  @apply text-fire text-right mr-2 -ml-[1.4rem];
-}

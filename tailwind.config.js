@@ -1,5 +1,8 @@
 module.exports = {
-  content: ['./*.html'],
+  content: [
+    './site/**/*.{vue,js,ts}',
+    './site/.vitepress/**/*.{vue,js,ts}',
+  ],
   theme: {
     colors: {
       black: '#001B23',
@@ -26,7 +29,7 @@ module.exports = {
         'radial-teal-sea-green': 'linear-gradient(180deg, #00404B 0%, #027175 53.65%, #05B0AB 100%)',
         'radial-grey-teal-sea': 'linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 70%, #05B0AB 100%)',
         'radial-sea-mint': 'linear-gradient(180deg, #05B0AB 0%, #F7FFFC 100%)',
-        'hero-beams': 'url("./assets/hero_beams.png"), linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 70%, #05B0AB 100%)',
+        'hero-beams': 'url("/hero_beams.png"), linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 70%, #05B0AB 100%)',
       },
       lineHeight: {
         '3xl': '3rem',

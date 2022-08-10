@@ -5,20 +5,20 @@ title: Privacy Policy
 
 This Privacy Policy describes how your personal information is collected, used, and shared by brainbot technologies AG. Personal Information means any information relating to an identified or identifiable natural person, who may be identified, directly or indirectly by reference to an identifier such as a name, an identification number, location data, online information (e.g. an IP address) or to one or more factors relating to that person. This notice applies to personal information provided to us by visitors to [https://beamerbridge.com](https://beamerbridge.com) (the "website"), end users, beta testers, suppliers, contractors, job applicants, or other direct or indirect affected persons of the activities we carry out and functions we perform in running the website. In this notice "you" refers to any individual whose personal information we hold or process.
 
-## **1. Basis on which we process personal data** 
+## **1. Basis on which we process personal data**
 
 Personal Information we hold about you will be processed either because:
 
-* the processing is necessary in pursuit of a "legitimate interest" (Art. 6 Para. 1 lit. f GDPR); a legitimate interest in this context means a valid interest we have or a third party has in processing your personal data which is not overridden by your interests in data privacy and security;
-*   you have consented to the processing for the specific purposes described in this notice (Art. 6 Para. 1 lit. a GDPR);
-*   the processing serves to fulfill a contract to which the data subject is a party or to carry out pre-contractual measures (Art. 6 Para. 1 lit. b GDPR); or
-*   the processing is necessary in order for us to comply with our obligations under a contract between you and us.
+- the processing is necessary in pursuit of a "legitimate interest" (Art. 6 Para. 1 lit. f GDPR); a legitimate interest in this context means a valid interest we have or a third party has in processing your personal data which is not overridden by your interests in data privacy and security;
+- you have consented to the processing for the specific purposes described in this notice (Art. 6 Para. 1 lit. a GDPR);
+- the processing serves to fulfill a contract to which the data subject is a party or to carry out pre-contractual measures (Art. 6 Para. 1 lit. b GDPR); or
+- the processing is necessary in order for us to comply with our obligations under a contract between you and us.
 
 ## **2. Personal information we collect**
 
 When you visit the website, we may automatically collect certain information about you and your device, including information about your web browser, IP address, time zone, and some of the cookies that are installed on your device. Additionally, as you browse the website, we may collect information about the individual web pages or products that you view, what websites or search terms referred you to the website, and information about how you interact with the website. We refer to this automatically-collected information as "Device Information." We collect Device Information using the following technologies:
 
-*   "Log files" track actions occurring on the website, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
+- "Log files" track actions occurring on the website, and collect data including your IP address, browser type, Internet service provider, referring/exit pages, and date/time stamps.
 
 Additionally, if you sign up for a newsletter through the website, we collect your email address. We refer to this information as "Subscription Information." In the course of our interactions, we may also collect a record and details of any correspondence or communications between you and us relating to any information request or job application submitted to us. We refer to this information as "Communication Information". When we talk about "Personal Information" in this Privacy Policy, we are talking both about Device Information, Subscription Information and Communication Information.
 
@@ -42,10 +42,10 @@ Please note that we do not alter our website's data collection and use practices
 
 We will not transfer any data in a systematic way outside of the EEA but there may be circumstances in which certain personal information is transferred outside of the EEA, in particular:
 
-*   if you live outside of the EEA, we may communicate with you during the course of our interactions and such communications may include personal information (such as Subscription Information);
-*   we may have certain third-party service suppliers who are based outside the EEA or who store data outside of the EEA;
-*   if you communicate with us while you are outside of the EEA there may be some data transfer to you or your device;
-*   from time to time your information may be stored in devices which are used by affiliates engaged by brainbot technologies AG when outside of the EEA.
+- if you live outside of the EEA, we may communicate with you during the course of our interactions and such communications may include personal information (such as Subscription Information);
+- we may have certain third-party service suppliers who are based outside the EEA or who store data outside of the EEA;
+- if you communicate with us while you are outside of the EEA there may be some data transfer to you or your device;
+- from time to time your information may be stored in devices which are used by affiliates engaged by brainbot technologies AG when outside of the EEA.
 
 If we transfer your information outside of the EEA in a systematic way, and the third country or international organisation in question has not been deemed by the EU Commission to have adequate data protection laws, we will provide appropriate safeguards and your privacy rights will continue to be enforceable against us as outlined in this notice.
 
@@ -63,12 +63,12 @@ If you sign up for a newsletter through the website or we acquire your personal 
 
 We will take all reasonable steps to ensure that appropriate technical and organisational measures are carried out in order to safeguard your personal information and protect against unlawful access and accidental loss or damage. These measures may include (as necessary):
 
-*   compliance with our internal IT security procedures;
-*   protecting our servers by both hardware and software firewalls;
-*   locating our data processing storage facilities in secure locations;
-*   using appropriate support tools and mailing list management providers;
-*   when necessary, disposing of or deleting your data in a secure manner; and
-*   regularly backing up and encrypting all data we hold.
+- compliance with our internal IT security procedures;
+- protecting our servers by both hardware and software firewalls;
+- locating our data processing storage facilities in secure locations;
+- using appropriate support tools and mailing list management providers;
+- when necessary, disposing of or deleting your data in a secure manner; and
+- regularly backing up and encrypting all data we hold.
 
 We will ensure that all contractors, staff or individuals engaged by us are aware of their privacy and data security obligations. We will take reasonable steps to ensure that the employees of third parties working on our behalf or providing services to us are aware of their privacy and data security obligations. Unfortunately, the transmission of information via the internet is not completely secure. Although we will do our best to protect your personal data, we cannot guarantee the security of your data transmitted by you to us by email. Once we have received your information, we will use the procedures and security features referred to in this Privacy Policy to try to prevent unauthorised access.
 

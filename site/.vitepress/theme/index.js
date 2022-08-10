@@ -5,4 +5,4 @@ import NotFound from './NotFound.vue';
 export default {
   Layout,
   NotFound,
-}
+};

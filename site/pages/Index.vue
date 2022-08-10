@@ -1,41 +1,6 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link rel="stylesheet" href="/style.css" />
-  <link rel="shortcut icon" type="image/png" href="assets/favicon.png" />
-  <title>Beamer Bridge</title>
-</head>
-
-<body>
-  <div id="app">
-    <header
-      class="hidden lg:flex fixed z-20 w-screen lg:h-28 top-0 flex-col lg:flex-row items-center gap-12 p-24 py-10 bg-grey-dark overflow-hidden">
-      <div class="absolute -z-10 top-1/4 left-1/3 h-1/2 w-full bg-radial-teal"></div>
-      <img class="w-80" src="assets/logo.png" />
-      <div class="flex-auto"></div>
-      <a class="py-1 px-3 border border-neon-yellow rounded-3xl text-2xl text-neon-yellow"
-        href="https://testnet.beamerbridge.com" target="_blank">App</a>
-      <a class="text-2xl text-sea-green" href="https://docs.beamerbridge.com" target="_blank">Documentation</a>
-    </header>
-
-    <header class="lg:hidden w-screen flex flex-col items-center fixed z-20 bg-black">
-      <div class="m-4 p-2">
-        <div class="absolute -z-10 left-0 h-1/4 w-full bg-radial-teal"></div>
-        <img class="h-11" src="assets/logo.png" />
-      </div>
-      <div class="flex w-full">
-        <a href="https://testnet.beamerbridge.com" target="_blank"
-          class="w-2/4 flex justify-center py-2 text-3xl bg-neon-yellow text-dark-teal">App</a>
-        <a href="https://docs.beamerbridge.com" target="_blank"
-          class="w-2/4 flex justify-center py-2 text-3xl bg-sea-green text-dark-teal">Docs</a>
-      </div>
-    </header>
-
-    <section
-      class="bg-hero-beams bg-no-repeat bg-cover lg:bg-contain bg-[center_top_2rem] lg:bg-[center_top_6rem] flex justify-center px-8 lg:px-0 pt-20 lg:pt-36 2xl:pt-24 pb-16">
+<template>
+  <div>  
+    <section class="bg-hero-beams bg-no-repeat bg-cover lg:bg-contain flex justify-center px-8 lg:px-0 lg:pt-12 2xl:pt-0 pb-16">
       <div class="flex flex-col items-center w-[1400px]">
         <div class="min-h-screen max-w-[50rem] flex-auto pt-24 lg:pt-6 flex flex-col self-end items-start lg:gap-10">
           <h1
@@ -67,7 +32,7 @@
             <div class="md:max-w-[18.75rem] flex flex-col items-center mb-20 md:mr-8">
               <h3 class="font-semibold text-4xl z-10">Certain</h3>
               <div class="relative bg-dark-teal w-48 h-4 -mt-[0.5rem]"></div>
-              <img class="h-72 lg:h-auto lg:w-full lg:my-8" src="assets/properties_certain.png">
+              <img class="h-72 lg:h-auto lg:w-full lg:my-8" src="/properties_certain.png">
               <p class="text-lg lg:px-4">
                 The amount of tokens sent and received will always be the same. That means no more guessing due to
                 conversion rates or slippage.
@@ -77,7 +42,7 @@
             <div class="md:max-w-[18.75rem] flex flex-col items-center mb-20 md:ml-8 lg:mr-8">
               <h3 class="font-semibold text-4xl z-10">Fast</h3>
               <div class="relative bg-dark-teal w-48 h-4 -mt-[0.5rem]"></div>
-              <img class="h-72 lg:h-auto lg:w-full lg:my-8" src="assets/properties_fast.png">
+              <img class="h-72 lg:h-auto lg:w-full lg:my-8" src="/properties_fast.png">
               <p class="text-lg lg:px-4 lg:mt-1">
                 Most transfers will be completed in just a few blocks. On average, transfers are reliably completed
                 within
@@ -90,7 +55,7 @@
             <div class="md:max-w-[18.75rem] flex flex-col items-center mb-20 lg:mx-2 md:mr-8">
               <h3 class="font-semibold text-4xl z-10">Simple</h3>
               <div class="relative bg-dark-teal w-48 h-4 -mt-[0.5rem]"></div>
-              <img class="h-72 lg:h-auto lg:w-full lg:my-8" src="assets/properties_simple.png">
+              <img class="h-72 lg:h-auto lg:w-full lg:my-8" src="/properties_simple.png">
               <p class="text-lg lg:px-4">
                 Users only needs to sign one transaction per transfer. Once received, the recipient will be able to
                 use the tokens right away.
@@ -100,7 +65,7 @@
             <div class="md:max-w-[18.75rem] flex flex-col items-center mb-20 md:ml-8">
               <h3 class="font-semibold text-4xl z-10">Secure</h3>
               <div class="relative bg-dark-teal w-48 h-4 -mt-[0.5rem]"></div>
-              <img class="h-72 lg:h-auto lg:w-full lg:my-8" src="assets/properties_secure.png">
+              <img class="h-72 lg:h-auto lg:w-full lg:my-8" src="/properties_secure.png">
               <p class="text-lg lg:px-4">
                 Beamer relies on Ethereum L1. There are no new security assumptions. Users will always receive their
                 tokens and be able to use them immediately after the transfer.
@@ -115,9 +80,9 @@
       target="_blank">
       <div class="flex flex-col lg:flex-row justify-between gap-4 lg:gap-0 items-center w-[1400px] lg:h-40">
         <h1 class="text-dark-teal text-3xl xl:text-4xl 2xl:text-5xl font-semibold">Beam tokens between</h1>
-        <img src="assets/metis_logo.png">
-        <img class="-mt-[0.8rem]" src="assets/boba_logo.png">
-        <img class="h-18 mt-2 lg:mt-0" src="assets/arrow.svg">
+        <img src="/metis_logo.png">
+        <img class="-mt-[0.8rem]" src="/boba_logo.png">
+        <img class="h-18 mt-2 lg:mt-0" src="/arrow.svg">
       </div>
     </a>
 
@@ -126,7 +91,7 @@
         <h1 class="text-4xl font-semibold mb-14">How does Beamer work?</h1>
         <div class="flex flex-col gap-8 lg:gap-20 lg:flex-row">
           <div class="flex w-full lg:w-[60%] justify-center lg:pt-6 lg:order-2">
-            <img class="md:h-[40rem]" src="assets/diagram.png">
+            <img class="md:h-[40rem]" src="/diagram.png">
           </div>
           <div class="w-full lg:w-[50%] text-sea-green lg:order-1">
             <h2 class="text-2xl text-semibold text-peach my-8">For Users</h2>
@@ -160,7 +125,7 @@
               Ethereum L1.</span>
 
             <div class="text-lg w-full lg:w-120 p-8 mt-14 flex items-start gap-4 bg-sea-green text-black rounded-4xl">
-              <img class="w-7 mt-1" src="assets/info_icon.svg">
+              <img class="w-7 mt-1" src="/info_icon.svg">
               <p class="text-lg">
                 The current test version of Beamer only allows user functions.<br>
                 The agent functions will be available to liquidity providers soon!
@@ -173,40 +138,14 @@
 
     <section class="bg-mint flex justify-center p-8 text-center">
       <div class="flex flex-col lg:flex-row justify-between items-center gap-8 lg:gap-0 w-[1400px] lg:h-40">
-        <img class="w-40" src="assets/community_icon.png">
+        <img class="w-40" src="/community_icon.png">
         <p class="text-2xl lg:px-8 text-black font-semibold break-normal">Beamer is a community&#8209;driven
           and open&#8209;source&nbsp;project.
           <br>Voice your feedback, comments and questions.
         </p>
         <a class="py-2 lg:py-3 px-8 bg-peach drop-shadow-petite rounded-4xl text-center whitespace-nowrap"
-          href="https://discord.gg/uvTYkzsBdA" target="_blank">Join our Community</a>
-      </div>
-    </section>
-
-    <section class="bg-black flex justify-center p-8 text-lg">
-      <div class="flex flex-col items-center lg:gap-4 w-[1400px]">
-        <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 items-center text-center">
-          <a href="https://raw.githubusercontent.com/beamer-bridge/www.beamerbridge.com/main/media-kit.tar.gz">
-            Branding Kit
-          </a>
-          <div class="flex flex-row items-center gap-8">
-            <a href="https://github.com/beamer-bridge" target="_blank"><img class="w-8" src="assets/github.png"></a>
-            <a href="https://discord.gg/uvTYkzsBdA" target="_blank"><img class="w-8" src="assets/discord.png"></a>
-            <a href="https://twitter.com/BeamerBridge" target="_blank"><img class="w-8" src="assets/twitter.png"></a>
-          </div>
-          <a href="mailto: hello@beamerbridge.com">hello@beamerbridge.com</a>
-        </div>
-
-        <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 items-center text-center mt-8 lg:mt-0">
-          <div class="flex gap-8">
-            <a href="https://www.brainbot.com/imprint.html" target="_blank">Imprint</a>
-            <a href="/privacy.html" target="_blank">Privacy Policy</a>
-          </div>
-          <span class="text-sea-green">Project led by Brainbot Technologies AG</span>
-        </div>
+          href="https://discord.gg/YWdStZkz9z" target="_blank">Join our Community</a>
       </div>
     </section>
   </div>
-</body>
-
-</html>
+</template>

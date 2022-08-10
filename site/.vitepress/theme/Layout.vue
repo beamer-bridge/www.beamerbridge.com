@@ -51,7 +51,7 @@
 
         <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 items-center text-center mt-8 lg:mt-0">
           <div class="flex gap-8">
-            <a href="https://www.brainbot.com/imprint.html" target="_blank">Imprint</a>
+            <a href="/imprint" target="_blank">Imprint</a>
             <a href="/privacy" target="_blank">Privacy Policy</a>
           </div>
           <span class="text-sea-green">Project led by Brainbot Technologies AG</span>

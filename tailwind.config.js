@@ -14,11 +14,6 @@ module.exports = {
 
       'grey-dark': '#001423',
     },
-    screens: {
-      md: '500px',
-      lg: '1024px',
-      '2xl': '1920px',
-    },
     extend: {
       backgroundImage: {
         'radial-teal':

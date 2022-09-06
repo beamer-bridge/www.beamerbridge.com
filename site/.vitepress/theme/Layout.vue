@@ -1,22 +1,33 @@
 <template>
   <div id="app">
     <header
-      class="fixed top-0 z-20 hidden w-screen flex-col items-center gap-12 overflow-hidden bg-grey-dark p-24 py-10 lg:flex lg:h-28 lg:flex-row"
+      class="fixed top-0 z-20 hidden h-28 w-screen flex-row overflow-hidden bg-grey-dark py-10 lg:flex"
     >
       <div class="absolute top-1/4 left-1/3 -z-10 h-1/2 w-full bg-radial-teal"></div>
-      <a href="/">
-        <img class="w-80" src="/logo.png" />
-      </a>
-      <div class="flex-auto"></div>
-      <a
-        class="rounded-3xl border border-neon-yellow py-1 px-3 text-2xl text-neon-yellow"
-        href="https://testnet.beamerbridge.com"
-        target="_blank"
-        >App</a
-      >
-      <a class="text-2xl text-sea-green" href="https://docs.beamerbridge.com" target="_blank"
-        >Documentation</a
-      >
+
+      <div class="container mx-auto flex flex-row items-center">
+        <a href="/">
+          <img class="w-64" src="/logo.png" />
+        </a>
+        <div class="flex-auto"></div>
+        <div class="flex flex-row items-center gap-16">
+          <a
+            class="rounded-3xl border border-neon-yellow py-1 px-3 text-xl text-neon-yellow hover:bg-neon-yellow hover:text-dark-teal"
+            href="https://testnet.beamerbridge.com"
+            target="_blank"
+            >dApp</a
+          >
+          <a class="text-xl text-sea-green" href="https://docs.beamerbridge.com" target="_blank"
+            >Docs</a
+          >
+          <a
+            class="text-xl text-sea-green"
+            href="https://docs.beamerbridge.com/faq.html"
+            target="_blank"
+            >FAQs</a
+          >
+        </div>
+      </div>
     </header>
 
     <header class="fixed z-20 flex w-screen flex-col items-center bg-black lg:hidden">
@@ -28,14 +39,20 @@
         <a
           href="https://testnet.beamerbridge.com"
           target="_blank"
-          class="flex w-2/4 justify-center bg-neon-yellow py-2 text-3xl text-dark-teal"
-          >App</a
+          class="flex w-2/4 justify-center bg-neon-yellow py-2 text-2xl text-dark-teal"
+          >dApp</a
         >
         <a
           href="https://docs.beamerbridge.com"
           target="_blank"
-          class="flex w-2/4 justify-center bg-sea-green py-2 text-3xl text-dark-teal"
+          class="flex w-2/4 justify-center bg-sea-green py-2 text-2xl text-dark-teal"
           >Docs</a
+        >
+        <a
+          href="https://docs.beamerbridge.com/faq.html"
+          target="_blank"
+          class="flex w-2/4 justify-center bg-neon-yellow py-2 text-2xl text-dark-teal"
+          >FAQs</a
         >
       </div>
     </header>

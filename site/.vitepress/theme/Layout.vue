@@ -1,7 +1,7 @@
 <template>
   <div id="app">
     <header
-      class="fixed top-0 z-20 hidden h-28 w-screen flex-row overflow-hidden bg-grey-dark py-10 lg:flex"
+      class="fixed top-0 z-20 hidden h-[105px] w-screen flex-row overflow-hidden bg-grey-dark lg:flex"
     >
       <div class="absolute top-1/4 left-1/3 -z-10 h-1/2 w-full bg-radial-teal"></div>
 
@@ -30,8 +30,8 @@
       </div>
     </header>
 
-    <header class="fixed z-20 flex w-screen flex-col items-center bg-black lg:hidden">
-      <div class="m-4 p-2">
+    <header class="fixed z-20 flex h-[140px] w-screen flex-col items-center bg-black lg:hidden">
+      <div class="my-auto">
         <div class="absolute left-0 -z-10 h-1/4 w-full bg-radial-teal"></div>
         <img class="h-11" src="/logo.png" />
       </div>
@@ -57,12 +57,9 @@
       </div>
     </header>
 
-    <div class="pt-20 lg:pt-24">
+    <div class="pt-[140px] lg:pt-[105px]">
       <section v-if="frontmatter.layout === 'page'" class="w-full bg-radial-grey-teal-sea">
-        <div
-          id="page-container"
-          class="mx-auto flex flex-col px-5 pt-20 pb-10 md:container lg:pt-16"
-        >
+        <div id="page-container" class="container mx-auto flex flex-col py-10">
           <h1 class="mb-4 font-semibold">{{ frontmatter.title }}</h1>
           <Content />
         </div>

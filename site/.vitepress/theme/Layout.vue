@@ -1,15 +1,15 @@
 <template>
   <div id="app">
     <header
-      class="hidden lg:flex fixed z-20 w-screen lg:h-28 top-0 flex-col lg:flex-row items-center gap-12 p-24 py-10 bg-grey-dark overflow-hidden"
+      class="fixed top-0 z-20 hidden w-screen flex-col items-center gap-12 overflow-hidden bg-grey-dark p-24 py-10 lg:flex lg:h-28 lg:flex-row"
     >
-      <div class="absolute -z-10 top-1/4 left-1/3 h-1/2 w-full bg-radial-teal"></div>
+      <div class="absolute top-1/4 left-1/3 -z-10 h-1/2 w-full bg-radial-teal"></div>
       <a href="/">
         <img class="w-80" src="/logo.png" />
       </a>
       <div class="flex-auto"></div>
       <a
-        class="py-1 px-3 border border-neon-yellow rounded-3xl text-2xl text-neon-yellow"
+        class="rounded-3xl border border-neon-yellow py-1 px-3 text-2xl text-neon-yellow"
         href="https://testnet.beamerbridge.com"
         target="_blank"
         >App</a
@@ -19,22 +19,22 @@
       >
     </header>
 
-    <header class="lg:hidden w-screen flex flex-col items-center fixed z-20 bg-black">
+    <header class="fixed z-20 flex w-screen flex-col items-center bg-black lg:hidden">
       <div class="m-4 p-2">
-        <div class="absolute -z-10 left-0 h-1/4 w-full bg-radial-teal"></div>
+        <div class="absolute left-0 -z-10 h-1/4 w-full bg-radial-teal"></div>
         <img class="h-11" src="/logo.png" />
       </div>
       <div class="flex w-full">
         <a
           href="https://testnet.beamerbridge.com"
           target="_blank"
-          class="w-2/4 flex justify-center py-2 text-3xl bg-neon-yellow text-dark-teal"
+          class="flex w-2/4 justify-center bg-neon-yellow py-2 text-3xl text-dark-teal"
           >App</a
         >
         <a
           href="https://docs.beamerbridge.com"
           target="_blank"
-          class="w-2/4 flex justify-center py-2 text-3xl bg-sea-green text-dark-teal"
+          class="flex w-2/4 justify-center bg-sea-green py-2 text-3xl text-dark-teal"
           >Docs</a
         >
       </div>
@@ -44,18 +44,18 @@
       <section v-if="frontmatter.layout === 'page'" class="w-full bg-radial-grey-teal-sea">
         <div
           id="page-container"
-          class="mx-auto md:container flex flex-col pt-20 lg:pt-16 pb-10 px-5"
+          class="mx-auto flex flex-col px-5 pt-20 pb-10 md:container lg:pt-16"
         >
-          <h1 class="font-semibold mb-4">{{ frontmatter.title }}</h1>
+          <h1 class="mb-4 font-semibold">{{ frontmatter.title }}</h1>
           <Content />
         </div>
       </section>
       <Content v-else />
     </div>
 
-    <footer class="bg-black flex justify-center p-8 text-lg">
-      <div class="flex flex-col items-center lg:gap-4 w-[1400px]">
-        <div class="flex flex-col lg:flex-row gap-4 lg:gap-8 items-center text-center">
+    <footer class="flex justify-center bg-black p-8 text-lg">
+      <div class="flex w-[1400px] flex-col items-center lg:gap-4">
+        <div class="flex flex-col items-center gap-4 text-center lg:flex-row lg:gap-8">
           <a href="media-kit.tar.gz"> Branding Kit </a>
           <div class="flex flex-row items-center gap-8">
             <a href="https://github.com/beamer-bridge" target="_blank"
@@ -72,7 +72,7 @@
         </div>
 
         <div
-          class="flex flex-col lg:flex-row gap-4 lg:gap-8 items-center text-center mt-8 lg:mt-0"
+          class="mt-8 flex flex-col items-center gap-4 text-center lg:mt-0 lg:flex-row lg:gap-8"
         >
           <div class="flex gap-8">
             <a href="/imprint" target="_blank">Imprint</a>
@@ -96,7 +96,7 @@ const { frontmatter } = useData();
   font-family: Sora, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  @apply text-mint text-2xl font-normal;
+  @apply text-2xl font-normal text-mint;
 }
 
 #page-container {

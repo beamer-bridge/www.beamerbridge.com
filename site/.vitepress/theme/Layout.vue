@@ -66,33 +66,38 @@
       </section>
       <Content v-else />
     </div>
-
-    <footer class="flex justify-center bg-black p-8 text-lg">
-      <div class="flex w-[1400px] flex-col items-center lg:gap-4">
-        <div class="flex flex-col items-center gap-4 text-center lg:flex-row lg:gap-8">
-          <a href="media-kit.tar.gz"> Branding Kit </a>
+    <footer class="bg-black py-8 text-lg">
+      <div class="container mx-auto grid grid-cols-1 items-center gap-2 sm:grid-cols-2 sm:gap-4">
+        <div class="flex flex-col items-center gap-2 text-center">
           <div class="flex flex-row items-center gap-8">
-            <a href="https://github.com/beamer-bridge" target="_blank"
-              ><img class="w-8" src="/github.png"
-            /></a>
-            <a href="https://discord.gg/YWdStZkz9z" target="_blank"
-              ><img class="w-8" src="/discord.png"
-            /></a>
-            <a href="https://twitter.com/BeamerBridge" target="_blank"
-              ><img class="w-8" src="/twitter.png"
-            /></a>
+            <a href="https://github.com/beamer-bridge" target="_blank" class="hover:scale-110">
+              <img class="w-8" src="/github.png" />
+            </a>
+            <a href="https://discord.gg/YWdStZkz9z" target="_blank" class="hover:scale-110">
+              <img class="w-8" src="/discord.png" />
+            </a>
+            <a href="https://twitter.com/BeamerBridge" target="_blank" class="hover:scale-110">
+              <img class="w-8" src="/twitter.png" />
+            </a>
           </div>
-          <a href="mailto: hello@beamerbridge.com">hello@beamerbridge.com</a>
+
+          <a href="mailto: hello@beamerbridge.com" class="underline hover:text-sea-green"
+            >hello@beamerbridge.com</a
+          >
+          <a href="media-kit.tar.gz" class="hover:text-sea-green"> Branding Kit </a>
+          <a
+            href="https://web3.career/web3-companies/beamer-bridge"
+            target="_blank"
+            class="hover:text-sea-green"
+          >
+            Career
+          </a>
         </div>
 
-        <div
-          class="mt-8 flex flex-col items-center gap-4 text-center lg:mt-0 lg:flex-row lg:gap-8"
-        >
-          <div class="flex gap-8">
-            <a href="/imprint" target="_blank">Imprint</a>
-            <a href="/privacy" target="_blank">Privacy Policy</a>
-          </div>
-          <span class="text-sea-green">Project led by Brainbot Technologies AG</span>
+        <div class="flex flex-col items-center gap-2 self-end text-center">
+          <a href="/imprint" target="_blank" class="hover:text-sea-green">Imprint</a>
+          <a href="/privacy" target="_blank" class="hover:text-sea-green">Privacy Policy</a>
+          <span class="">Project led by Brainbot Technologies AG</span>
         </div>
       </div>
     </footer>

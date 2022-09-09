@@ -29,8 +29,8 @@ module.exports = {
           'linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 70%, #05B0AB 100%)',
         'radial-sea-mint': 'linear-gradient(180deg, #05B0AB 0%, #F7FFFC 100%)',
         'linear-teal-teal-dark': 'linear-gradient(180deg, #00404B 20.31%, #001423 100%);',
-        'hero-beams':
-          'url("/hero_beams.png"), linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 70%, #05B0AB 100%)',
+        'hero-beams': 'url("/hero_beams.png")',
+        cta: 'url("/cta_bg.png"), linear-gradient(180deg, #00404B 20.31%, #001423 100%)',
       },
       lineHeight: {
         '3xl': '3rem',

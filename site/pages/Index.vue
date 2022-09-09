@@ -1,9 +1,12 @@
 <template>
   <div>
     <section
-      class="relative flex h-[920px] justify-center overflow-hidden bg-hero-beams bg-cover bg-center bg-no-repeat py-6 text-center md:h-[1024px] md:py-32 lg:bg-contain 2xl:h-[1124px] 2xl:py-24"
+      class="relative flex h-[920px] justify-center overflow-hidden bg-radial-grey-teal-sea py-6 text-center md:h-[1024px] md:py-32 2xl:h-[1124px] 2xl:py-24"
     >
-      <div class="container flex flex-col items-center gap-9 text-center">
+      <div
+        class="bg absolute top-0 left-0 z-10 h-full w-full bg-hero-beams bg-cover bg-[center_top_-5rem] bg-no-repeat"
+      ></div>
+      <div class="container z-20 flex flex-col items-center gap-9 text-center">
         <h1
           class="px-3 text-center text-6xl leading-5xl text-sea-green sm:px-0 lg:text-7xl lg:leading-6xl"
         >
@@ -134,7 +137,7 @@
       </div>
     </a>
 
-    <section class="bg-linear-teal-teal-dark py-20 xl:py-16">
+    <section class="bg-cta bg-cover bg-center py-20 xl:py-16">
       <div class="container mx-auto flex flex-col items-center justify-center gap-44 text-center">
         <h1
           class="text-center text-6xl font-bold leading-5xl text-sea-green lg:text-7xl lg:leading-6xl"

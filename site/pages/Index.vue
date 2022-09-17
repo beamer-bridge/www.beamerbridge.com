@@ -39,7 +39,7 @@
           Simple and Secure
         </h1>
         <div
-          class="-z-10 h-full rounded-t-[50%] bg-[white] [transition:_transform_0.5s_ease-in-out,box-shadow_0.3s_ease-in-out,opacity_0.5s_ease-in-out] [transition-delay:0s,0.3s,0s] 3xl:mt-[400px]"
+          class="-z-10 h-full rounded-t-[50%] bg-[white] [transition:_transform_0.5s_ease-in-out,box-shadow_0.3s_ease-in-out,opacity_0.5s_ease-in-out] [transition-delay:0s,0.3s,0s]"
           :class="[ellipseClasses, ellipseShadowClasses, ellipseOpacityClasses]"
           :style="{ '--tw-scale-x': scaleX }"
         ></div>
@@ -131,8 +131,10 @@
     >
       <div class="container flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-0">
         <h1 class="text-3xl font-semibold text-dark-teal xl:text-4xl">Beam tokens between</h1>
-        <img src="/metis_logo.png" />
-        <img class="-mt-[0.8rem]" src="/boba_logo.png" />
+        <div class="flex flex-col items-center justify-center gap-8 lg:flex-row lg:gap-24">
+          <img src="/optimism_logo.png" class="w-16" />
+          <img class="w-32" src="/boba_logo.png" />
+        </div>
         <img class="mt-2 h-10 lg:mt-0" src="/arrow.svg" />
       </div>
     </a>
@@ -224,7 +226,7 @@ const properties = [
  */
 
 const ellipseClasses = `
-mt-[12rem]
+mt-[14rem]
 lg:mt-[17rem]
 scale-y-[1.4]
 md:scale-y-[1.6]

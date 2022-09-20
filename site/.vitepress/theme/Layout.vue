@@ -13,7 +13,7 @@
         <div class="flex flex-row items-center gap-16">
           <a
             class="rounded-3xl border border-neon-yellow py-1 px-3 text-xl text-neon-yellow transition-colors hover:bg-neon-yellow hover:text-dark-teal"
-            href="https://testnet.beamerbridge.com"
+            href="https://app.beamerbridge.com"
             target="_blank"
             >App</a
           >
@@ -42,7 +42,7 @@
       </div>
       <div class="flex w-full">
         <a
-          href="https://testnet.beamerbridge.com"
+          href="https://app.beamerbridge.com"
           target="_blank"
           class="flex w-2/4 justify-center bg-neon-yellow py-2 text-2xl text-dark-teal"
           >App</a

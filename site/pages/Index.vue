@@ -21,7 +21,7 @@
         </h2>
         <a
           class="rounded-[67px] bg-neon-yellow py-4 px-8 text-2xl text-black transition-all hover:bg-neon-green hover:shadow-2xl"
-          href="https://testnet.beamerbridge.com"
+          href="https://app.beamerbridge.com"
           target="_blank"
         >
           <span class="inline whitespace-nowrap">Start Beaming</span>
@@ -126,7 +126,7 @@
 
     <a
       class="z-20 flex justify-center bg-neon-yellow py-6 text-center"
-      href="https://testnet.beamerbridge.com"
+      href="https://app.beamerbridge.com"
       target="_blank"
     >
       <div class="container flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-0">
@@ -148,7 +148,7 @@
         </h1>
         <a
           class="rounded-[67px] bg-neon-yellow px-8 py-4 text-2xl text-black transition-all hover:bg-neon-green hover:shadow-2xl"
-          href="https://testnet.beamerbridge.com"
+          href="https://app.beamerbridge.com"
           target="_blank"
         >
           <span class="inline whitespace-nowrap">Start Beaming</span>

@@ -3,21 +3,20 @@ module.exports = {
   theme: {
     colors: {
       black: '#001B23',
+      teal: {
+        100: '#005E63',
+        200: '#00404B',
+      },
       'dark-teal': '#005E63',
       'sea-green': '#05B0AB',
+      'sea-green-muted': 'rgba(78, 173, 170, 0.25)',
       mint: '#F7FFFC',
       peach: '#F7937C',
       fire: '#F7602B',
       rosa: '#FFEDEB',
       'neon-green': '#6DF451',
       'neon-yellow': '#BDFF3E',
-
       'grey-dark': '#001423',
-    },
-    screens: {
-      md: '500px',
-      lg: '1024px',
-      '2xl': '1920px',
     },
     extend: {
       backgroundImage: {
@@ -29,8 +28,9 @@ module.exports = {
         'radial-grey-teal-sea':
           'linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 70%, #05B0AB 100%)',
         'radial-sea-mint': 'linear-gradient(180deg, #05B0AB 0%, #F7FFFC 100%)',
-        'hero-beams':
-          'url("/hero_beams.png"), linear-gradient(180deg, #001423 0%, #001423 10%, #00404B 70%, #05B0AB 100%)',
+        'linear-teal-teal-dark': 'linear-gradient(180deg, #00404B 20.31%, #001423 100%);',
+        'hero-beams': 'url("/hero_beams.png")',
+        cta: 'url("/cta_bg.png"), linear-gradient(180deg, #00404B 20.31%, #001423 100%)',
       },
       lineHeight: {
         '3xl': '3rem',
@@ -48,6 +48,12 @@ module.exports = {
         101: '25.25rem',
         120: '30rem',
         127: '31.75rem',
+      },
+      boxShadow: {
+        'neon-yellow': '0px 9px 38px #BDFF3E',
+      },
+      screens: {
+        '3xl': '2000px',
       },
     },
     dropShadow: {

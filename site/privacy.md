@@ -1,6 +1,13 @@
 ---
 layout: page
 title: Privacy Policy
+head:
+  - - meta
+    - property: og:url
+      content: https://beamerbridge.com/privacy
+  - - meta
+    - name: twitter:url
+      content: https://beamerbridge.com/privacy
 ---
 
 This Privacy Policy describes how your personal information is collected, used, and shared by brainbot technologies AG. Personal Information means any information relating to an identified or identifiable natural person, who may be identified, directly or indirectly by reference to an identifier such as a name, an identification number, location data, online information (e.g. an IP address) or to one or more factors relating to that person. This notice applies to personal information provided to us by visitors to [https://beamerbridge.com](https://beamerbridge.com) (the "website"), end users, beta testers, suppliers, contractors, job applicants, or other direct or indirect affected persons of the activities we carry out and functions we perform in running the website. In this notice "you" refers to any individual whose personal information we hold or process.

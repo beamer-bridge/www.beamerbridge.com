@@ -1,6 +1,13 @@
 ---
 layout: page
 title: Terms & Conditions of Use
+head:
+  - - meta
+    - property: og:url
+      content: https://beamerbridge.com/terms
+  - - meta
+    - name: twitter:url
+      content: https://beamerbridge.com/terms
 ---
 
 ## 1. Scope

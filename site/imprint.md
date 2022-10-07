@@ -1,6 +1,13 @@
 ---
 layout: page
 title: Impressum
+head:
+  - - meta
+    - property: og:url
+      content: https://beamerbridge.com/imprint
+  - - meta
+    - name: twitter:url
+      content: https://beamerbridge.com/imprint
 ---
 
 ## Angaben gemäß § 5 TMG

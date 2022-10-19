@@ -8,6 +8,9 @@ head:
   - - meta
     - name: twitter:url
       content: https://beamerbridge.com/privacy
+  - - script
+    - src: https://beamerbridge.matomo.cloud/index.php?module=CoreAdminHome&action=optOutJS&divId=matomo-opt-out&language=auto&showIntro=1
+      defer: true
 ---
 
 This Privacy Policy describes how your personal information is collected, used, and shared by brainbot technologies AG. Personal Information means any information relating to an identified or identifiable natural person, who may be identified, directly or indirectly by reference to an identifier such as a name, an identification number, location data, online information (e.g. an IP address) or to one or more factors relating to that person. This notice applies to personal information provided to us by visitors to [https://beamerbridge.com](https://beamerbridge.com) (the "website"), end users, beta testers, suppliers, contractors, job applicants, or other direct or indirect affected persons of the activities we carry out and functions we perform in running the website. In this notice "you" refers to any individual whose personal information we hold or process.
@@ -82,6 +85,8 @@ We will ensure that all contractors, staff or individuals engaged by us are awar
 ## **10. Web analysis tool Matomo**
 
 We analyze the use of our website with the open-source web analysis tool Matomo (formerly Piwik; data protection declaration can be found at [https://matomo.org/privacy-policy/](https://matomo.org/privacy-policy/)). For this purpose, the automatically collected IP addresses are anonymized before the evaluation. The analysis is therefore based on anonymized data records, and there is no personal evaluation. The web analysis is used exclusively to optimize the website in terms of user-friendliness and to provide useful information about our services. This data is not merged with other personal data sources or passed on to third parties.
+
+<div id="matomo-opt-out"></div>
 
 In addition to the data mentioned, Matomo also uses so-called "cookies" (see below).
 

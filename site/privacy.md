@@ -81,7 +81,7 @@ We will ensure that all contractors, staff or individuals engaged by us are awar
 
 ## **10. Web analysis tool Matomo**
 
-We analyze the use of our website with the open-source web analysis tool Matomo (formerly Piwik; data protection declaration can be found at [https://matomo.org/privacy-policy/](https://matomo.org/privacy-policy/)). For this purpose, the automatically collected IP addresses are anonymized before the evaluation. The analysis is therefore based on anonymized data records and there is no personal evaluation. The web analysis is used exclusively to optimize the website in terms of user-friendliness and to provide useful information about our services. This data is not merged with other personal data sources or passed on to third parties.
+We analyze the use of our website with the open-source web analysis tool Matomo (formerly Piwik; data protection declaration can be found at [https://matomo.org/privacy-policy/](https://matomo.org/privacy-policy/)). For this purpose, the automatically collected IP addresses are anonymized before the evaluation. The analysis is therefore based on anonymized data records, and there is no personal evaluation. The web analysis is used exclusively to optimize the website in terms of user-friendliness and to provide useful information about our services. This data is not merged with other personal data sources or passed on to third parties.
 
 In addition to the data mentioned, Matomo also uses so-called "cookies" (see below).
 

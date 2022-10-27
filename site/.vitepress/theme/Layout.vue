@@ -96,6 +96,13 @@
             >
               <img class="w-8" src="/twitter.png" />
             </a>
+            <a
+              href="https://medium.com/@BeamerBridge"
+              target="_blank"
+              class="transition-transform hover:scale-110"
+            >
+              <img class="w-8" src="/medium.png" />
+            </a>
           </div>
           <a
             href="mailto: hello@beamerbridge.com"

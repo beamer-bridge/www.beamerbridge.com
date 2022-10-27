@@ -121,7 +121,14 @@
           <a href="/privacy" target="_blank" class="transition-colors hover:text-sea-green"
             >Privacy Policy</a
           >
-          <span class="">Project led by Brainbot Technologies AG</span>
+          <span class="">
+            <a
+              href="https://www.brainbot.com/"
+              target="_blank"
+              class="transition-colors hover:text-sea-green"
+              >Project led by Brainbot Technologies AG</a
+            >
+          </span>
         </div>
       </div>
     </footer>

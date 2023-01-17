@@ -86,15 +86,22 @@
               target="_blank"
               class="underline transition-colors hover:text-sea-green"
               >Optimism</a
-            >
-            and
+            >,
             <a
               href="https://boba.network/"
               target="_blank"
               class="underline transition-colors hover:text-sea-green"
             >
-              Boba.
+              Boba
             </a>
+            and
+            <a
+              href="https://arbitrum.io/"
+              target="_blank"
+              class="underline transition-colors hover:text-sea-green"
+            >
+              Arbitrum</a
+            >.
           </p>
         </div>
 
@@ -134,6 +141,7 @@
         <div class="flex flex-col items-center justify-center gap-8 lg:flex-row lg:gap-24">
           <img src="/optimism_logo.png" class="w-16" />
           <img class="w-32" src="/boba_logo.png" />
+          <img class="w-16" src="/arbitrum_logo.png" />
         </div>
         <img class="mt-2 h-10 lg:mt-0" src="/arrow.svg" />
       </div>

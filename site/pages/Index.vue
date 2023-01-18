@@ -4,7 +4,7 @@
       class="relative flex h-[920px] justify-center overflow-hidden bg-radial-grey-teal-sea py-6 text-center md:h-[1024px] md:py-32 2xl:h-[1124px] 2xl:py-24"
     >
       <div
-        class="bg absolute top-0 left-0 z-10 h-full w-full bg-hero-beams bg-cover bg-[center_top_-5rem] bg-no-repeat"
+        class="bg absolute -top-16 left-0 z-10 h-full w-full bg-hero-beams bg-cover bg-[center_top_-5rem] bg-no-repeat"
       ></div>
       <div class="container z-20 flex flex-col items-center gap-9 text-center">
         <h1

@@ -12,7 +12,7 @@ module.exports = {
       'sea-green-muted': 'rgba(78, 173, 170, 0.25)',
       mint: '#F7FFFC',
       peach: '#F7937C',
-      fire: '#F7602B',
+      fire: '#F1612E',
       rosa: '#FFEDEB',
       'neon-green': '#6DF451',
       'neon-yellow': '#BDFF3E',

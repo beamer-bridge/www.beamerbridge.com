@@ -1,7 +1,13 @@
 <template>
   <div id="app">
+    <div
+      class="flex h-16 w-full flex-col justify-center bg-fire text-center text-xl font-semibold text-rosa lg:text-2xl"
+    >
+      ✦ Beamer is now live on Arbitrum! ✦
+    </div>
+
     <header
-      class="fixed top-0 z-30 hidden h-20 w-screen flex-row overflow-hidden bg-grey-dark px-4 md:flex"
+      class="sticky top-0 z-30 hidden h-20 w-screen flex-row overflow-hidden bg-grey-dark px-4 md:flex"
     >
       <div class="absolute top-1/4 left-1/3 -z-10 h-1/2 w-full bg-radial-teal"></div>
 
@@ -33,7 +39,7 @@
       </div>
     </header>
 
-    <header class="fixed top-0 z-30 flex h-36 w-screen flex-col items-center bg-black md:hidden">
+    <header class="sticky top-0 z-30 flex h-36 w-screen flex-col items-center bg-black md:hidden">
       <div class="my-auto">
         <div class="absolute left-0 -z-10 h-1/4 w-full bg-radial-teal"></div>
         <a href="/" @click="scrollToTop">
@@ -62,7 +68,7 @@
       </div>
     </header>
 
-    <div class="pt-36 md:pt-20">
+    <div>
       <section v-if="frontmatter.layout === 'page'" class="w-full bg-radial-grey-teal-sea">
         <div id="page-container" class="container mx-auto flex flex-col py-10">
           <h1 class="mb-4 font-semibold">{{ frontmatter.title }}</h1>

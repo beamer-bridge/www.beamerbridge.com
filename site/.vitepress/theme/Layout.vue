@@ -152,11 +152,13 @@
         </div>
       </div>
     </footer>
+    <MatomoConsentPopup />
   </div>
 </template>
 
 <script setup lang="ts">
 import { useData } from 'vitepress';
+import MatomoConsentPopup from './MatomoConsentPopup.vue';
 
 const { frontmatter } = useData();
 

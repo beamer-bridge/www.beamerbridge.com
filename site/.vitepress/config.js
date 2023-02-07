@@ -34,6 +34,8 @@ export default {
       { type: 'text/javascript' },
       `
         var _paq = window._paq = window._paq || [];
+        /* require user tracking consent before processing data */
+        _paq.push(['requireConsent']);
         /* tracker methods like "setCustomDimension" should be called before "trackPageView" */
         _paq.push(["setDocumentTitle", document.domain + "/" + document.title]);
         _paq.push(["setCookieDomain", "*.beamerbridge.com"]);

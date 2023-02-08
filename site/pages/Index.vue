@@ -185,6 +185,44 @@
         >
       </div>
     </section>
+
+    <section class="bg-mint py-8 text-center">
+      <div class="container mx-auto my-4 flex flex-col items-center px-4 xl:px-0">
+        <span class="text-2xl font-semibold text-dark-teal">Backed by</span>
+        <div class="mt-12 flex w-full flex-col items-center justify-between gap-8 lg:flex-row">
+          <a href="https://atka.io/" target="_blank" class="opacity-70 hover:opacity-100">
+            <img class="h-16" src="/partners/atka.png" />
+          </a>
+          <a href="https://kindi.capital/" target="_blank" class="opacity-70 hover:opacity-100">
+            <img class="h-16" src="/partners/kindi.png" />
+          </a>
+          <a href="https://alphemy.capital/" target="_blank" class="opacity-70 hover:opacity-100">
+            <img class="h-20" src="/partners/alphemy.png" />
+          </a>
+          <a
+            href="https://coinix.capital/en/"
+            target="_blank"
+            class="opacity-70 hover:opacity-100"
+          >
+            <img class="h-16" src="/partners/coinix.png" />
+          </a>
+          <a
+            href="https://www.parallelvc.xyz/"
+            target="_blank"
+            class="opacity-70 hover:opacity-100"
+          >
+            <img class="h-16" src="/partners/parallel.png" />
+          </a>
+          <a href="https://zeeprime.capital/" target="_blank" class="opacity-70 hover:opacity-100">
+            <img class="h-16" src="/partners/zeeprime.png" />
+          </a>
+          <span
+            class="select-none font-['Inter'] text-2xl font-semibold text-black opacity-70 hover:opacity-100"
+            >Etiënne</span
+          >
+        </div>
+      </div>
+    </section>
   </div>
 </template>
 

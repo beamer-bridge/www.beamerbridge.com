@@ -81,6 +81,7 @@
           <p class="px-4 text-xl sm:px-0">
             Enjoy the best dApps, DeFi protocols, games, NFT projects and DAOs - whichever rollup
             they're on. Discover amazing dApps on
+
             <a
               href="https://www.optimism.io/"
               target="_blank"
@@ -88,20 +89,27 @@
               >Optimism</a
             >,
             <a
-              href="https://boba.network/"
-              target="_blank"
-              class="underline transition-colors hover:text-sea-green"
-            >
-              Boba
-            </a>
-            and
-            <a
               href="https://arbitrum.io/"
               target="_blank"
               class="underline transition-colors hover:text-sea-green"
             >
               Arbitrum</a
-            >.
+            >,
+            <a
+              href="https://ethereum.org/"
+              target="_blank"
+              class="underline transition-colors hover:text-sea-green"
+            >
+              Ethereum</a
+            >
+            and
+            <a
+              href="https://boba.network/"
+              target="_blank"
+              class="underline transition-colors hover:text-sea-green"
+            >
+              Boba</a
+            >
           </p>
         </div>
 

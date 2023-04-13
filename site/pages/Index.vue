@@ -138,10 +138,13 @@
     >
       <div class="container flex flex-col items-center justify-between gap-8 lg:flex-row lg:gap-0">
         <h1 class="text-3xl font-semibold text-dark-teal xl:text-4xl">Beam tokens between</h1>
-        <div class="flex flex-col items-center justify-center gap-8 lg:flex-row lg:gap-24">
+        <div
+          class="flex flex-col items-center justify-center gap-8 lg:flex-row lg:gap-16 xl:gap-24"
+        >
+          <img class="w-10" src="/ethereum.png" />
           <img src="/optimism_logo.png" class="w-16" />
-          <img class="w-32" src="/boba_logo.png" />
           <img class="w-16" src="/arbitrum_logo.png" />
+          <img class="w-32" src="/boba_logo.png" />
         </div>
         <img class="mt-2 h-10 lg:mt-0" src="/arrow.svg" />
       </div>

@@ -3,7 +3,7 @@
     <div
       class="flex h-16 w-full flex-col justify-center bg-fire text-center text-xl font-semibold text-rosa lg:text-2xl"
     >
-      ✦ Beamer is now live on Arbitrum! ✦
+      ✦ Layer up! You can now bridge from Ethereum L1 to rollups ✦
     </div>
 
     <header

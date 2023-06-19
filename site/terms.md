@@ -14,7 +14,7 @@ head:
 
 ## 1.1.
 
-These terms and conditions govern the contractual relationship between the user and Brainbot Technologies AG (hereinafter referred to as BBT) regarding the use of the front end interfacing with the Beamer protocol via https://app.beamerbridge.com/ (hereinafter referred to as the Beamer App). BBT and the user are collectively referred to as the "parties".
+These terms and conditions govern the contractual relationship between the user and brainbot gmbh (hereinafter referred to as BB) regarding the use of the front end interfacing with the Beamer protocol via https://app.beamerbridge.com/ (hereinafter referred to as the Beamer App). BB and the user are collectively referred to as the "parties".
 
 ## 1.2.
 
@@ -40,11 +40,11 @@ The installation of the Beamer App is not part of the contract.
 
 ## 4.3.
 
-The user may be offered updates of the Beamer App for download, which may contain bug fixes and new functionalities as long as the download offer is not discontinued. BBT therefore recommends regular updates.
+The user may be offered updates of the Beamer App for download, which may contain bug fixes and new functionalities as long as the download offer is not discontinued. BB therefore recommends regular updates.
 
 ## 4.4.
 
-BBT is free to stop all access to download and update offers of the Beamer App via its web servers at any time.
+BB is free to stop all access to download and update offers of the Beamer App via its web servers at any time.
 
 ## 5. Rights of use
 
@@ -62,11 +62,11 @@ The user receives and can use/interact with the Beamer App free of charge. Fees 
 
 ## 7. Beta Version/Disclaimer/Liability
 
-The Beamer App is a beta version of experimental open source software released as a beta version under an MIT license and may contain errors and/or bugs. No guarantee or representation whatsoever is made regarding its suitability (or its use) for any purpose or regarding its compliance with any applicable laws and regulations. Use of the Beamer App is at the user’s risk and discretion and by using Beamer the user warrants and represents to have read this disclaimer, understand its contents, assume all risk related thereto and hereby releases, waives, discharges and covenants not to hold liable BBT or any of its officers, employees or affiliates from and for any direct or indirect damage resulting from the Beamer App or the use thereof. Such to the extent as permissible by applicable laws and regulations.
+The Beamer App is a beta version of experimental open source software released as a beta version under an MIT license and may contain errors and/or bugs. No guarantee or representation whatsoever is made regarding its suitability (or its use) for any purpose or regarding its compliance with any applicable laws and regulations. Use of the Beamer App is at the user’s risk and discretion and by using Beamer the user warrants and represents to have read this disclaimer, understand its contents, assume all risk related thereto and hereby releases, waives, discharges and covenants not to hold liable BB or any of its officers, employees or affiliates from and for any direct or indirect damage resulting from the Beamer App or the use thereof. Such to the extent as permissible by applicable laws and regulations.
 
 ## 8. Third Party Services
 
-The Beamer App gives the user the choice to interact directly with web services provided by third parties. These web services are unaffiliated with BBT and carried out solely on the discretion of the user and based on the respective terms and conditions agreed between the user and the third party or web service. BBT does not receive any form of remuneration or inducement from these third parties. BBT gives neither express or implied representations nor express or implied warranties with regard to the applications or the services provided by third parties. This includes but is not limited to the validity of the license, suitability, quality, functionality, availability, access of/to the application or service. BBT therefore cannot be held responsible or liable for these applications or services or for any damages related to using these applications or services.
+The Beamer App gives the user the choice to interact directly with web services provided by third parties. These web services are unaffiliated with BB and carried out solely on the discretion of the user and based on the respective terms and conditions agreed between the user and the third party or web service. BB does not receive any form of remuneration or inducement from these third parties. BB gives neither express or implied representations nor express or implied warranties with regard to the applications or the services provided by third parties. This includes but is not limited to the validity of the license, suitability, quality, functionality, availability, access of/to the application or service. BB therefore cannot be held responsible or liable for these applications or services or for any damages related to using these applications or services.
 
 ## 9. Applicable law
 
@@ -74,17 +74,17 @@ The contractual relationship between the parties and all disputes that arise fro
 
 ## 10. Place of jurisdiction
 
-Insofar as the user is a merchant, legal entity under public law or special fund under public law or has no general place of jurisdiction in Germany, or has moved his domicile or habitual residence outside of Germany after conclusion of the contract, or his domicile or habitual residence is not known at the time the action is brought, the exclusive place of jurisdiction for all disputes arising from and in connection with the contractual relationship between the parties in all these cases is the registered office of BBT.
+Insofar as the user is a merchant, legal entity under public law or special fund under public law or has no general place of jurisdiction in Germany, or has moved his domicile or habitual residence outside of Germany after conclusion of the contract, or his domicile or habitual residence is not known at the time the action is brought, the exclusive place of jurisdiction for all disputes arising from and in connection with the contractual relationship between the parties in all these cases is the registered office of BB.
 
 ## 11. Dispute settlement
 
 ## 11.1.
 
-The European Commission provides a platform that enables disputes between consumers and businesses to be settled online (OS platform). The OS platform can be reached under the following link: [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). BBTs email address is: [contact@brainbot.com](mailto:contact@brainbot.com).
+The European Commission provides a platform that enables disputes between consumers and businesses to be settled online (OS platform). The OS platform can be reached under the following link: [https://ec.europa.eu/consumers/odr](https://ec.europa.eu/consumers/odr). BBs email address is: [contact@brainbot.com](mailto:contact@brainbot.com).
 
 ## 11.2.
 
-BBT is not obliged to participate in dispute settlement procedures before consumer arbitration boards.
+BB is not obliged to participate in dispute settlement procedures before consumer arbitration boards.
 
 ## 12. Severability Clause
 

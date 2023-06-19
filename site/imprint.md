@@ -10,7 +10,7 @@ head:
       content: https://beamerbridge.com/imprint
 ---
 
-brainbot technologies AG  
+brainbot gmbh
 Taunusstraße 61  
 55120 Mainz  
 Germany
@@ -21,12 +21,8 @@ Phone:&emsp;&ensp;+49 (0) 6131 2116391
 
 Fax:&emsp;&emsp;&emsp;+49 (0) 6131 2116392
 
-**Chairman of the Supervisory Board**  
-**(Aufsichtsratsvorsitzender)**  
-Andreas Fletcher
-
-**Executive Board**  
-**(Vorstand)**  
+**Management**  
+**(Geschäftsführer)**  
 Heiko Franßen
 
 **Registered seat of the company**  
@@ -35,7 +31,7 @@ Mainz, Germany
 
 **District Court**  
 **(Registergericht)**  
-Amtsgericht Mainz, HRB 8375
+Amtsgericht Mainz, HRB 52070
 
 **VAT number**  
 **(Umsatzsteuer-Identifikationsnummer)**  
@@ -44,7 +40,7 @@ DE129274202
 **Responsible according to § 18 Abs. 2 MStV**  
 **(Verantwortlicher gemäß § 18 Abs. 2 MStV)**  
 Heiko Franßen  
-brainbot technologies AG  
+brainbot gmbh
 Taunusstraße 61  
 55120 Mainz  
 Germany

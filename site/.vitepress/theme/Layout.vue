@@ -146,7 +146,7 @@
               href="https://www.brainbot.com/"
               target="_blank"
               class="transition-colors hover:text-sea-green"
-              >Project led by Brainbot Technologies AG</a
+              >Project led by brainbot gmbh</a
             >
           </span>
         </div>

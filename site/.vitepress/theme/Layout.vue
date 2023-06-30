@@ -89,7 +89,7 @@
               <img class="w-8" src="/github.png" />
             </a>
             <a
-              href="https://discord.gg/YWdStZkz9z"
+              href="https://discord.gg/beamerbridge"
               target="_blank"
               class="transition-transform hover:scale-110"
             >

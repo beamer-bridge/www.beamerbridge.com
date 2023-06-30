@@ -190,7 +190,7 @@
         </div>
         <a
           class="whitespace-nowrap rounded-4xl bg-peach py-3 px-8 text-center text-black transition-colors hover:bg-fire"
-          href="https://discord.gg/YWdStZkz9z"
+          href="https://discord.gg/beamerbridge"
           target="_blank"
           >Join our Community</a
         >

@@ -152,7 +152,7 @@
           <img class="w-10" src="/ethereum.png" />
           <img src="/optimism_logo.png" class="w-16" />
           <img class="w-16" src="/arbitrum_logo.png" />
-          <img class="w-32" src="/boba_logo.png" />
+          <img class="w-16" src="/polygon_zkevm_logo.png" />
         </div>
         <img class="mt-2 h-10 lg:mt-0" src="/arrow.svg" />
       </div>

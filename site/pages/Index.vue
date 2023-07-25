@@ -85,31 +85,31 @@
             <a
               href="https://www.optimism.io/"
               target="_blank"
-              class="underline transition-colors hover:text-sea-green"
+              class="whitespace-nowrap underline transition-colors hover:text-sea-green"
               >Optimism</a
             >,
             <a
               href="https://arbitrum.io/"
               target="_blank"
-              class="underline transition-colors hover:text-sea-green"
+              class="whitespace-nowrap underline transition-colors hover:text-sea-green"
             >
               Arbitrum</a
             >,
             <a
               href="https://ethereum.org/"
               target="_blank"
-              class="underline transition-colors hover:text-sea-green"
+              class="whitespace-nowrap underline transition-colors hover:text-sea-green"
             >
               Ethereum</a
             >
             and
             <a
-              href="https://boba.network/"
+              href="https://zkevm.polygon.technology/"
               target="_blank"
-              class="underline transition-colors hover:text-sea-green"
+              class="whitespace-nowrap underline transition-colors hover:text-sea-green"
             >
-              Boba</a
-            >
+              Polygon zkEVM</a
+            >.
           </p>
         </div>
 

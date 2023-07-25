@@ -3,7 +3,7 @@
     <div
       class="flex h-16 w-full flex-col justify-center bg-fire text-center text-xl font-semibold text-rosa lg:text-2xl"
     >
-      ✦ &#129427; &#129427; &#129427; &#129427; &#129427; &#129427; &#129427; &#129427; &#129427; ✦
+      ✦ Beamer is now live on Polygon zkEVM! ✦
     </div>
 
     <header

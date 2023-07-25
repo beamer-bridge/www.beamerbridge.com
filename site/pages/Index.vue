@@ -101,14 +101,21 @@
               class="whitespace-nowrap underline transition-colors hover:text-sea-green"
             >
               Ethereum</a
-            >
-            and
+            >,
             <a
               href="https://zkevm.polygon.technology/"
               target="_blank"
               class="whitespace-nowrap underline transition-colors hover:text-sea-green"
             >
               Polygon zkEVM</a
+            >
+            and
+            <a
+              href="https://base.org/"
+              target="_blank"
+              class="whitespace-nowrap underline transition-colors hover:text-sea-green"
+            >
+              Base</a
             >.
           </p>
         </div>
@@ -153,6 +160,7 @@
           <img src="/optimism_logo.png" class="w-16" />
           <img class="w-16" src="/arbitrum_logo.png" />
           <img class="w-16" src="/polygon_zkevm_logo.png" />
+          <img class="w-16" src="/base.svg" />
         </div>
         <img class="mt-2 h-10 lg:mt-0" src="/arrow.svg" />
       </div>

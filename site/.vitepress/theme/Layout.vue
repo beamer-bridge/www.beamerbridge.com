@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div
-      class="flex h-16 w-full flex-col justify-center bg-fire text-center text-xl font-semibold text-rosa lg:text-2xl"
+      class="flex h-16 w-full flex-col justify-center bg-fire text-center text-xl text-rosa lg:text-2xl"
     >
-      ✦ Beamer is now live on Polygon zkEVM! ✦
+      ✦ FREE Transfers Over $250 From Any L2 ($500 from L1)! ✦
     </div>
 
     <header

@@ -1,9 +1,9 @@
 <template>
   <div id="app">
     <div
-      class="flex h-16 w-full flex-col justify-center bg-fire text-center text-xl text-rosa lg:text-2xl"
+      class="flex h-16 w-full flex-col justify-center bg-fire text-center text-base text-rosa md:text-xl lg:text-2xl"
     >
-      ✦ FREE Transfers Over $250 From Any L2 ($500 from L1)! ✦
+      ✦ Enjoy 0 bridging fees for transfers over $250 from any L2 ($500 from L1)! ✦
     </div>
 
     <header

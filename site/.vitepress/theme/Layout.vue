@@ -3,7 +3,7 @@
     <div
       class="flex h-16 w-full flex-col justify-center bg-fire text-center text-base text-rosa md:text-xl lg:text-2xl"
     >
-      ✦ Enjoy 0 bridging fees for transfers over $250 from any L2! ✦
+      ✦ Enjoy 0 bridging fees for transfers over $250. ✦
     </div>
 
     <header

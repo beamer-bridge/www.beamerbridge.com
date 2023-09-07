@@ -3,7 +3,7 @@
     <div
       class="flex h-16 w-full flex-col justify-center bg-fire text-center text-base text-rosa md:text-xl lg:text-2xl"
     >
-      ✦ Enjoy 0 bridging fees for transfers over $250. ✦
+      ✦ Beamer is Now LIVE on BASE! ✦
     </div>
 
     <header
